@@ -28,5 +28,24 @@ public class Main {
         Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
         Emprestimo.calcular(1000, Emprestimo.getTresParcelas());
         Emprestimo.calcular(1000, 5);
+
+        //Sobrecarga
+        System.out.println("\nExercício sobrecarga");
+        Quadrilatero.area(3);
+        Quadrilatero.area(5d, 5d);
+        Quadrilatero.area(8, 7, 9);
+        Quadrilatero.area(5f, 5f);
+
+        //Retornos
+        System.out.println("\nExercício retorno");
+
+        double areaQuadrado = QuadrilateroComReturn.area(3);
+        System.out.println("Área do quadrado: " + areaQuadrado);
+
+        double areaRetangulo = QuadrilateroComReturn.area(5,5);
+        System.out.println("Área do retângulo: " + areaRetangulo);
+
+        double areaTrapezio = QuadrilateroComReturn.area(8,7, 9);
+    System.out.println("Área do trapézio: " + areaTrapezio);
     }
 }
