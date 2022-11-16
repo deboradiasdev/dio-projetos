@@ -4,7 +4,7 @@ import java.util.Scanner;
  * e informe o maior número
  * e a média desses números.
  */
-public class Ex3_MaiorEMedia {
+public class Ex3_Loops_MaiorEMedia {
 /**
  * @param args
  */

@@ -11,7 +11,7 @@ import java.util.Scanner;
  * ...
  * 5 x 10 = 50
  */
-public class Ex5_Tabuada {
+public class Ex5_Loops_Tabuada {
    public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
 
