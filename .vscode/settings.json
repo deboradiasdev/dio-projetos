@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "Métodos Java/Metodos.java/src/Metodos/java/src",
-        "Métodos Java/src"
+        "Métodos Java/src",
+        "Desafios/src",
+        "loops_e_arrays/src"
     ]
 }

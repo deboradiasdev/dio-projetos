@@ -5,9 +5,6 @@ import java.util.Scanner;
  * e a média desses números.
  */
 public class Ex3_Loops_MaiorEMedia {
-/**
- * @param args
- */
 public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
 
